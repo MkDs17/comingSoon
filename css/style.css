@@ -1,5 +1,31 @@
 body {
   font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    margin: 0;
+}
+
+nav {
+  display: flex;
+}
+nav > img, footer {
+  z-index: 1;
+}
+nav > img {
+  margin: 20px;
+}
+footer {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-title {
+  font-size: 20px;
+  color: white;
+  margin: 0px 10px;
 }
 
 .bg {
