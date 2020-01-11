@@ -49,6 +49,13 @@ body {
   justify-content: space-evenly;
 }
 
+.time-block {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .time {
   font-size: 45px;
   font-weight: 700;
@@ -56,7 +63,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.time-text{
+.smalltext{
   font-size: 25px;
   font-weight: 100;
 }
