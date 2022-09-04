@@ -5,7 +5,7 @@ let app = {
 
     app.randomBackground()
 
-    let deadline = 'Mar 10 2020 18:00:00'
+    let deadline = 'Jeu 1 2026 00:00:00'
     app.initializeClock(deadline)
   },        
 
