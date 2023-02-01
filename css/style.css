@@ -95,7 +95,7 @@ footer .footer-title {
 .countdown {
   display: flex;
   color: white;
-  width: 400px;
+  /*width: 400px;*/
   justify-content: space-evenly;
 }
 
